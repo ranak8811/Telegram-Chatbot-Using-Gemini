@@ -19,7 +19,7 @@ Follow these steps to set up and run the bot:
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/Telegram-chatbot.git
+git clone https://github.com/ranak8811/Telegram-Chatbot-Using-Gemini.git
 cd Telegram-chatbot
 ```
 
@@ -75,15 +75,25 @@ To get your `TELEGRAM_BOT_TOKEN`:
     - Enter a username for your bot (e.g., `telebot2025_bot`). This must end with `_bot`.
 4.  BotFather will provide you with an HTTP API Token. Copy this token and paste it into your `.env` file as `TELEGRAM_BOT_TOKEN`.
 
-### 6. Run the Bot
+### 6. Test the Bot (Optional Echo Bot)
 
-Once everything is set up, start the bot:
+Before running the main bot, you can test your Telegram bot token and setup with a simple echo bot. This bot will simply reply with whatever message you send it.
+
+To run the echo bot:
+
+```bash
+python3 research/echo_bot.py
+```
+
+### 7. Run the Main Bot
+
+Once everything is set up, start the main bot:
 
 ```bash
 python3 main.py
 ```
 
-### 7. Interact with Your Bot
+### 8. Interact with Your Bot
 
 1.  Open Telegram and search for your bot's username (e.g., `telebot2025_bot`).
 2.  Start a conversation with your bot and enjoy!
